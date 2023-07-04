@@ -19,7 +19,7 @@
   width: 15em;
   height: 12em;
   position: absolute;
-  top: 90%;
+  top: 95vh;
 }
 
 .apresentacao {
@@ -31,7 +31,7 @@
   height: 8em;
   position: absolute;
   right: 2%;
-  top: 149%;
+  top: 172vh;
 }
 
 .titulo {
@@ -127,7 +127,7 @@
   height: 40vh;
   position: absolute;
   left: -22%;
-  top: 191.3%;
+  top: 220.5vh;
 }
 
 .btn_consulta {
