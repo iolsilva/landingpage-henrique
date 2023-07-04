@@ -1,0 +1,43 @@
+@import url(./styles/header.css);
+@import url(./styles/descricao.css);
+@import url(./styles/carrossel.css);
+@import url(./styles/rodape.css);
+@import url(./styles/formulario.css);
+@import url(./styles/contato.css);
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url(./fonts/gotham-bold.otf) format(opentype);
+}
+
+@font-face {
+  font-family: "Trajan Pro";
+  src: url(./fonts/trajan-pro-3-2.otf) format(opentype);
+}
+
+@font-face {
+  font-family: "Gotham Light";
+  src: url(./fonts/gotham-light.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "Trajan Bold";
+  src: url(./fonts/trajan-pro-bold.otf) format(opentype);
+}
+
+:root {
+  --cor-de-fundo: #c9c9c9;
+  --branco: #ffffff;
+  --amarelo: #f7de00;
+  --preto: #212121;
+}
+
+body {
+  background-color: #222222;
+  font-family: "Gotham Light";
+}
+
+.fundo {
+  width: 100vw;
+  height: 56.5vw;
+}

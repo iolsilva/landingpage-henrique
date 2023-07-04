@@ -1,0 +1,11 @@
+.rodape {
+  background-color: var(--cor-de-fundo);
+  padding: 1.5em 0;
+}
+
+.texto__rodape {
+  font-family: "Gotham Light";
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center;
+}

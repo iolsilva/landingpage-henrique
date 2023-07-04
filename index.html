@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Henrique Rabelo</title>
+  </head>
+  <body>
+    <header class="cabeçalho"></header>
+    <section class="home">
+      <div class="container">
+        <img src="./img/IMG.svg" alt="Logo do Henrique Rabelo" class="logo" />
+        <input type="checkbox" id="menu" class="container__botao" />
+        <label for="menu" class="container__rotulo">
+          <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Home</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Sobre mim</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Área de atuação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Notícias</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container__apresentacao">
+      <div class="box__apresentacao">
+        <img src="./img/foto.svg" alt="" class="foto" />
+        <div class="apresentacao">
+          <h1 class="titulo">Sobre Mim</h1>
+          <p class="descricao">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas amet
+            rem molestiae quasi doloremque modi rerum est non earum, dolorem
+            tempora adipisci! Sint nihil fuga aliquid nesciunt iure ut sunt?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            corrupti adipisci eos, placeat provident incidunt ad esse doloremque
+            illo magni neque vel sapiente itaque dolore aliquam pariatur.
+            Ratione, quod delectus.
+          </p>
+        </div>
+        <img src="./img/martelo.svg" alt="" class="img__martelo" />
+      </div>
+    </section>
+    <section class="box__area">
+      <h1 class="titulo__atuacao">Áreas de Atuação Jurídica</h1>
+      <ul class="lista__atuacao">
+        <li class="lista-menu__atuacao">
+          <img src="./img/civil.svg" alt="" class="lista-menu__img" />
+          <div class="card">
+            <h3 class="lista-menu__titulo">Civil</h3>
+            <p class="lista-menu__texto">
+              Área do Direito que trata do conjunto de normas nas relações entre
+              pessoas, sejam elas fiscais ou jurídicas.
+            </p>
+          </div>
+          <img src="./img/linhas.svg" alt="" class="img__linha" />
+        </li>
+        <li class="lista-menu__atuacao">
+          <img src="./img/tributario.svg" alt="" class="lista-menu__img" />
+          <div class="card">
+            <h3 class="lista-menu__titulo">Tributário</h3>
+            <p class="lista-menu__texto">
+              Área referente às obrigações tributárias, arrecadação de impostos,
+              taxas, empréstimos e contribuições especiais.
+            </p>
+          </div>
+        </li>
+        <li class="lista-menu__atuacao" id="lista-menu__atuacao-espacobtn">
+          <img src="./img/trabalhista.svg" alt="" class="lista-menu__img" />
+          <div class="card">
+            <h3 class="lista-menu__titulo">Trabalhista</h3>
+            <p class="lista-menu__texto">
+              Conjunto de normas que regem a relação empregado-empregador e
+              todos os seus direitos e deveres jurídicos.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <a href="#" class="btn_consulta">SOLICITAR CONSULTA</a>
+    </section>
+
+    <section class="carrossel">
+      <h2 class="carrossel__titulo">Artigos em Alta</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="./img/Banco Central.svg"
+              alt="Livro sobre Nodejs da alura books"
+              class="img__noticia"
+            />
+            <h4 class="carrossel__titulo-artigo">
+              Banco Central<br />não aprova diminuição<br />da Selic
+            </h4>
+            <p class="carrossel__texto-artigo">
+              Texto da noticia que estamos testando para ver como fica
+            </p>
+            <a href="#" class="link__saibamais">Ler mais</a>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img/aposentado.svg"
+              alt="Livro sobre UX da alura books"
+              class="img__noticia"
+            />
+            <h4 class="carrossel__titulo-artigo">
+              Trabalhadores com até 50 anos já podem solicitar aposentadoria
+            </h4>
+            <p class="carrossel__texto-artigo">
+              Texto da noticia que estamos testando para ver como fica
+            </p>
+            <a href="#" class="link__saibamais">Ler mais</a>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img/NOTICIA.svg"
+              alt="Livro sobre Gestão da alura books"
+              class="img__noticia"
+            />
+            <h4 class="carrossel__titulo-artigo">Artigo Teste 3</h4>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img/NOTICIA.svg"
+              alt="Livro sobre Metrica ageis da alura books"
+              class="img__noticia"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img/NOTICIA.svg"
+              alt="Livro sobre React Native da alura books"
+              class="img__noticia"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img/NOTICIA.svg"
+              alt="Livro sobre Construct2 da alura books"
+              class="img__noticia"
+            />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <img src="./img/martelo.svg" alt="" class="img__martelo-carrossel" />
+    </section>
+
+    <section class="formulario">
+      <form>
+        <fieldset>
+          <legend>
+            <b
+              >Solicitar <br />
+              Consulta</b
+            >
+          </legend>
+          <div class="inputbox">
+            <label for="nome">Nome</label>
+            <br />
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              class="inputUser"
+              required
+            />
+          </div>
+          <br /><br />
+          <div class="inputbox">
+            <label for="email">E-mail</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="inputUser"
+              required
+            />
+          </div>
+          <br /><br />
+          <div class="inputbox">
+            <label for="telefone">Telefone</label>
+            <br />
+            <input
+              type="tel"
+              name="telefone"
+              id="telefone"
+              class="inputUser"
+              required
+            />
+          </div>
+          <br /><br />
+          <div class="area__inputradio">
+            <p>Área:</p>
+            <br />
+            <input type="radio" id="civil" name="area" value="civil" required />
+            <label for="civil">Civil</label>
+            <br /><br />
+            <input
+              type="radio"
+              id="tributario"
+              name="area"
+              value="tributario"
+              required
+            />
+            <label for="tributario">Tributário</label>
+            <br /><br />
+            <input
+              type="radio"
+              id="trabalhista"
+              name="area"
+              value="trabalhista"
+              required
+            />
+            <label for="trabalhista">Trabalhista</label>
+          </div>
+          <br /><br />
+          <input
+            type="submit"
+            name="submit"
+            id="submit"
+            class="submit"
+            value="ENVIAR"
+          />
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="container__contato">
+      <div class="contato">
+        <h1 class="titulo__contato">CONTATO</h1>
+        <ul class="endereco">
+          <li class="endereco__lista">
+            <img src="./img/localizacao.svg" alt="" class="img_contato" />
+            <p class="texto__lista">123 Anywhere St., Any City</p>
+          </li>
+          <li class="endereco__lista">
+            <img src="./img/Logo Whatsapp.svg" alt="" class="img_contato" />
+            <p class="texto__lista">+123-456-7890</p>
+          </li>
+          <li class="endereco__lista">
+            <img src="./img/email.svg" alt="" class="img_contato" />
+            <p class="texto__lista">hello@reallygreatsite.com</p>
+          </li>
+          <li class="endereco__lista">
+            <img src="./img/instagram.svg" alt="" class="img_contato" />
+            <p class="texto__lista">@reallygreatsite</p>
+          </li>
+        </ul>
+      </div>
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117111.65711770047!2d-47.43679055!3d-23.469866999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58abceb48f503%3A0x947f99ac59d0781b!2sSorocaba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1688419659860!5m2!1spt-BR!2sbr"
+          width="350"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <p class="texto__rodape">
+        © Henrique Rabelo - Todos os direitos reservados | Desenvolvido por Iago
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 10,
+        slidesPerView: 2,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
+  </body>
+</html>

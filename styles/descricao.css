@@ -1,0 +1,150 @@
+.container__apresentacao {
+  text-align: center;
+  background-color: #222222;
+}
+
+.box__apresentacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10em 2.5em 7em 2.5em;
+  /*border: 2px solid black;*/
+  background-color: #c9c9c9;
+  border-radius: 10px;
+  box-shadow: 10px 5px #cbbb26;
+}
+
+.foto {
+  width: 15em;
+  height: 12em;
+  position: absolute;
+  top: 90%;
+}
+
+.apresentacao {
+  margin: 5em 0;
+}
+
+.img__martelo {
+  width: 10em;
+  height: 8em;
+  position: absolute;
+  right: 2%;
+  top: 149%;
+}
+
+.titulo {
+  margin: 1em 0 0.5em 0;
+  font-family: "Gotham Bold";
+  font-weight: 700;
+  color: var(--preto);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.titulo__atuacao {
+  margin: 2em 0 0.5em 0;
+  padding: 2em 2em 0 2em;
+  font-family: "Trajan Bold";
+  font-weight: 700;
+  color: var(--preto);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.descricao {
+  margin: 0 1.5em 0.5em 1.5em;
+  font-family: "Gotham Light";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.apresentacao__img {
+  width: 60vw;
+  height: 30vh;
+}
+
+.apresentacao__saibamais {
+  padding: 0.5em;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: "Gotham Bold";
+  text-decoration: none;
+  background-color: var(--preto);
+  color: var(--amarelo);
+  margin: 1em;
+}
+
+.lista__atuacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 3em 0;
+}
+
+.lista-menu__atuacao {
+  display: flex;
+  margin: 0.5em 2em 0 3em;
+  padding: 1em 0 0 3em;
+  text-align: left;
+  align-items: center;
+}
+
+.card {
+  padding: 2em 0 0 1.5em;
+}
+.box__area {
+  background-color: #d8d3cb;
+  text-align: center;
+  background-color: var(--cor-de-fundo);
+  padding: 0 0 5em 0;
+}
+
+.lista-menu__titulo {
+  font-family: "Trajan Bold";
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.lista-menu__texto {
+  font-family: "Gotham Light";
+  font-weight: 400;
+  font-size: 16px;
+  padding: 1em 0;
+}
+
+.lista-menu__img {
+  width: 25vw;
+  height: 15vh;
+  position: absolute;
+  left: 0%;
+  margin-left: 1em;
+}
+
+.img__linha {
+  width: 80vw;
+  height: 40vh;
+  position: absolute;
+  left: -22%;
+  top: 191.3%;
+}
+
+.btn_consulta {
+  margin: 3em 0 3em 0;
+  padding: 0.5em 0.5em;
+  background-color: #cbbb26;
+  color: var(--preto);
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Trajan Pro";
+  font-size: 13px;
+}
+
+.botao_box {
+  margin: 2em 0;
+}
+
+.lista-menu__atuacao-espacobtn {
+  margin: 0 0 3em 0;
+}

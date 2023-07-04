@@ -1,0 +1,52 @@
+.formulario {
+  background-color: var(--cor-de-fundo);
+  padding: 2em;
+  font-family: "Trajan Pro";
+  text-align: center;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.inputbox > label {
+  padding-left: 1em;
+}
+
+.inputUser {
+  padding: 0.8em 7em 0.8em 0;
+  width: 60vw;
+  border-radius: 30px;
+  background-color: var(--branco);
+}
+
+.area__inputradio {
+  text-align: start;
+}
+
+fieldset {
+  padding: 2 0em;
+  border-radius: 20px;
+}
+
+fieldset > legend {
+  margin: 0 0 1.5em 0;
+  text-align: center;
+  font-family: "Trajan Bold";
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.submit {
+  text-align: center;
+  padding: 0.5em 4em;
+  border-radius: 15px;
+  background-color: #cbbb26;
+  font-family: "Gotham Bold";
+  font-weight: 700;
+  font-size: 13px;
+}
