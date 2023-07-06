@@ -13,13 +13,14 @@
   background-color: #c9c9c9;
   border-radius: 10px;
   box-shadow: 10px 5px #cbbb26;
+  position: relative;
 }
 
 .foto {
   width: 15em;
   height: 12em;
   position: absolute;
-  top: 95vh;
+  top: -25%;
 }
 
 .apresentacao {
@@ -31,7 +32,7 @@
   height: 8em;
   position: absolute;
   right: 2%;
-  top: 172vh;
+  top: 90%;
 }
 
 .titulo {
@@ -81,6 +82,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 0 3em 0;
+  position: relative;
 }
 
 .lista-menu__atuacao {
@@ -124,10 +126,10 @@
 
 .img__linha {
   width: 80vw;
-  height: 40vh;
+  height: 30vh;
   position: absolute;
   left: -22%;
-  top: 220.5vh;
+  top: 26.5%;
 }
 
 .btn_consulta {
