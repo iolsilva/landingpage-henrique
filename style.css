@@ -41,3 +41,21 @@ body {
   width: 100vw;
   height: 56.5vw;
 }
+
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.cabeçalho__menu-hamburguer {
+  position: fixed;
+  top: 10px;
+  z-index: 9999;
+}
+
+.lista-menu {
+  position: fixed;
+  z-index: 9999;
+}

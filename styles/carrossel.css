@@ -63,7 +63,24 @@
   display: none;
 }
 
+.box__link {
+  display: flex;
+  flex-direction: column;
+}
+
+.link__artigos {
+  margin: 1.5em 10em;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--preto);
+  background-color: #cbbb26;
+  padding: 0.5em;
+  border-radius: 30px;
+}
+
 .img__martelo-carrossel {
   width: 55vw;
   height: 30vh;
+  align-self: center;
 }

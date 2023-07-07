@@ -1,9 +1,11 @@
 .cabeçalho__menu-hamburguer {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 26px;
   background-image: url("../img/Menu.svg");
   background-repeat: no-repeat; /*não repetir a img*/
   background-position: center; /*posição da imagem*/
+  position: fixed;
+  top: 0px;
 }
 
 .container__imagem {
